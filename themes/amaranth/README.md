@@ -14,7 +14,7 @@
 </div>
 
 <div align="center"  style="margin-bottom:30px">
-    <img src="docs/logo-notext.png" alt="Logo" width='400px' height='400px'/>
+    <img src="docs/logo.png" alt="Logo" width='400px' height='400px'/>
 </div>
 
 <div align="center"  style="margin-bottom:30px">
@@ -134,7 +134,7 @@ const config: SiteConfig = {
   // Website configuration
   website: {
     title: "Gatsby Advanced Starter", // Homepage title
-    titleShort: "Advanced Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation
+    titleShort: "Mushroom Blog", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation
     name: "Gatsby Advanced Starter", // Website name used for homescreen (PWA) and SEO
     description: "A GatsbyJS starter equipped with advanced features.", // Website description used for RSS feeds/meta description tag
     language: "en", // Sets the global HTML lang attribute
