@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/contentAppDemo",
   plugins: [
     "gatsby-plugin-styled-components",
     {
