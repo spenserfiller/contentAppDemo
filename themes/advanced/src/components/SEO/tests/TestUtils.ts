@@ -47,7 +47,7 @@ export const sampleSeoData: {
   post: {
     title: "Post title",
     description: "Post description.",
-    coverImageUrl: "/logos/logo-1024.png",
+    coverImageUrl: "/logos/logo2-1024.png",
     coverImageAlt: "Post cover image alt text.",
     datePublished: new Date("2021-12-17T00:00:00.000+00:00"),
     dateModified: new Date("2021-12-20T00:00:00.000+00:00"),
@@ -62,7 +62,7 @@ export const sampleSeoData: {
     isArticle: true,
     type: "article",
     title: "Post title",
-    imageUrl: "/logos/logo-1024.png",
+    imageUrl: "/logos/logo2-1024.png",
     imageAlt: "Post cover image alt text.",
     url: "/posts/url",
     description: "Post description.",
@@ -73,7 +73,7 @@ export const sampleSeoData: {
     isArticle: false,
     type: "website",
     title: "Website title",
-    imageUrl: "/logos/logo-1024.png",
+    imageUrl: "/logos/logo2-1024.png",
     imageAlt: "Website image alt description.",
     url: "/url",
     description: "Website description.",
@@ -86,7 +86,7 @@ export const sampleSeoData: {
     name: "Gatsby Advanced Starter", // Website name used for homescreen (PWA) and SEO
     description: "A GatsbyJS starter with Advanced design in mind.", // Website description used for RSS feeds/meta description tag
     language: "en",
-    logoUrl: "/logos/logo-1024.png", // Logo used for SEO and manifest
+    logoUrl: "/logos/logo.png", // Logo used for SEO and manifest
     fbAppId: "1825356251115265", // FB Application ID for using app insights
     twitterName: "Vagr9K",
     url: "https://gatsby-advanced-starter-demo.netlify.com", // Domain of your website without pathPrefix

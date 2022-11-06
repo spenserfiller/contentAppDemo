@@ -8,7 +8,7 @@ const config: SiteConfig = {
     name: "SimpleSpore", // Website name used for homescreen (PWA) and SEO
     description: "An insporational place.", // Website description used for RSS feeds/meta description tag
     language: "en",
-    logoUrl: "/logos/logo-1024.png", // Logo used for SEO
+    logoUrl: "/logos/logo.png", // Logo used for SEO
     fbAppId: "1111111111111111", // FB Application ID for using app insights
     twitterName: "Vagr9K", // Twitter handle of the website
     url: "https://simplespore.com", // Domain of your website without the pathPrefix

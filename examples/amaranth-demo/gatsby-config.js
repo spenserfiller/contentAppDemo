@@ -62,6 +62,11 @@ module.exports = {
             type: "image/png",
           },
           {
+            src: "/logos/logo2-1024.png",
+            sizes: "1024x1024",
+            type: "image/png",
+          },
+          {
             src: "/logos/logo-maskable-72x72.png",
             sizes: "72x72",
             type: "image/png",
@@ -118,6 +123,12 @@ module.exports = {
           {
             src: "/logos/logo-maskable-512x512.png",
             sizes: "512x512",
+            type: "image/png",
+            purpose: "any maskable",
+          },
+          {
+            src: "/logos/logo2-1024.png",
+            sizes: "1024x1024",
             type: "image/png",
             purpose: "any maskable",
           },

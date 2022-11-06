@@ -1,4 +1,4 @@
-import AdvancedLogo from "./logo.svg";
+import SimpleSporeLogo from "./logo.svg";
 
 // eslint-disable-next-line import/prefer-default-export
-export { AdvancedLogo };
+export { SimpleSporeLogo };

@@ -8,7 +8,7 @@ const config: SiteConfig = {
     name: "SimpleSpore", // Website name used for homescreen (PWA) and SEO
     description: "An insporational place", // Website description used for RSS feeds/meta description tag
     language: "en", // Sets the global HTML lang attribute
-    logoUrl: "/logos/logo-1024.png", // Logo used for SEO
+    logoUrl: "/logos/logo.png", // Logo used for SEO
     url: "https://simplespore.com", // Domain of your website without the pathPrefix
     rss: "/rss.xml", // Path to the RSS file
     rssTitle: "SimpleSpore RSS Feed", // Title of the RSS feed

@@ -14,7 +14,7 @@ exports[`component SEO renders correctly on article pages 1`] = `
     Big Test
   </title>
   <link
-    href="/logos/logo-1024.png"
+    href="/logos/logo2-1024.png"
     rel="shortcut icon"
   />
   <meta
@@ -143,7 +143,7 @@ exports[`component SEO renders correctly on website pages 1`] = `
     Gatsby Advanced Starter
   </title>
   <link
-    href="/logos/logo-1024.png"
+    href="/logos/logo2-1024.png"
     rel="shortcut icon"
   />
   <meta
@@ -151,7 +151,7 @@ exports[`component SEO renders correctly on website pages 1`] = `
     name="description"
   />
   <meta
-    content="/logos/logo-1024.png"
+    content="/logos/logo2-1024.png"
     name="image"
   />
   <meta
@@ -167,7 +167,7 @@ exports[`component SEO renders correctly on website pages 1`] = `
     property="og:url"
   />
   <meta
-    content="/logos/logo-1024.png"
+    content="/logos/logo2-1024.png"
     property="og:image"
   />
   <meta
@@ -204,7 +204,7 @@ exports[`component SEO renders correctly on website pages 1`] = `
     name="twitter:description"
   />
   <meta
-    content="/logos/logo-1024.png"
+    content="/logos/logo2-1024.png"
     name="twitter:image"
   />
   <meta
