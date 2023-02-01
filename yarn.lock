@@ -1531,6 +1531,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.20.7":
+  version: 7.20.13
+  resolution: "@babel/runtime@npm:7.20.13"
+  dependencies:
+    regenerator-runtime: ^0.13.11
+  checksum: 09b7a97a05c80540db6c9e4ddf8c5d2ebb06cae5caf3a87e33c33f27f8c4d49d9c67a2d72f1570e796045288fad569f98a26ceba0c4f5fad2af84b6ad855c4fb
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.12.7, @babel/template@npm:^7.16.7, @babel/template@npm:^7.3.3":
   version: 7.16.7
   resolution: "@babel/template@npm:7.16.7"
@@ -4602,7 +4611,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:^4.14.182, @types/lodash@npm:^4.14.92":
+"@types/lodash@npm:^4.14.92":
   version: 4.14.182
   resolution: "@types/lodash@npm:4.14.182"
   checksum: 7dd137aa9dbabd632408bd37009d984655164fa1ecc3f2b6eb94afe35bf0a5852cbab6183148d883e9c73a958b7fec9a9bcf7c8e45d41195add6a18c34958209
@@ -10137,17 +10146,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cypress@npm:^2.12.1":
-  version: 2.12.1
-  resolution: "eslint-plugin-cypress@npm:2.12.1"
-  dependencies:
-    globals: ^11.12.0
-  peerDependencies:
-    eslint: ">= 3.2.1"
-  checksum: 1f1c36e149304e9a6f58e2292a761abad58274da33b3a48b24ad55ad20cbce3ac7467321f2b6fcb052f9563c89f67004de4766eba2e2bdbcb010a6a0666989cf
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-flowtype@npm:^5.10.0":
   version: 5.10.0
   resolution: "eslint-plugin-flowtype@npm:5.10.0"
@@ -11929,11 +11927,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-plugin-netlify-cms@npm:^6.17.0":
-  version: 6.17.0
-  resolution: "gatsby-plugin-netlify-cms@npm:6.17.0"
+"gatsby-plugin-netlify-cms@npm:^7.5.0":
+  version: 7.5.0
+  resolution: "gatsby-plugin-netlify-cms@npm:7.5.0"
   dependencies:
-    "@babel/runtime": ^7.15.4
+    "@babel/runtime": ^7.20.7
     "@soda/friendly-errors-webpack-plugin": 1.8.1
     copy-webpack-plugin: ^7.0.0
     html-webpack-plugin: ^5.3.2
@@ -11943,12 +11941,12 @@ __metadata:
     mini-css-extract-plugin: 1.6.2
     netlify-identity-widget: ^1.9.2
   peerDependencies:
-    gatsby: ^4.0.0-next
+    gatsby: ^5.0.0-next
     netlify-cms-app: ^2.9.0
-    react: ^16.9.0 || ^17.0.0 || ^18.0.0
-    react-dom: ^16.9.0 || ^17.0.0 || ^18.0.0
+    react: ^18.0.0 || ^0.0.0
+    react-dom: ^18.0.0 || ^0.0.0
     webpack: ^5.0.0
-  checksum: 4f63e0876eb6dc3b61faa935960d6166c616d9e95b0847f6f2a3a96186185d4258d962a87c1cb8d9a1efd05309e789a7946f4f7f6d040277e9c668a32250b556
+  checksum: 01320ae9e9c366153e7b55a5f9b16aec6499620f5c73fcc57af0de32a944123ca768dec904e625ab468b761a5e6fe4eb867d3b22c87751252ca0a67648812391
   languageName: node
   linkType: hard
 
@@ -12370,70 +12368,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-theme-advanced-demo@workspace:examples/advanced-demo":
-  version: 0.0.0-use.local
-  resolution: "gatsby-theme-advanced-demo@workspace:examples/advanced-demo"
-  dependencies:
-    "@stylelint/postcss-css-in-js": ^0.38.0
-    "@testing-library/cypress": ^8.0.3
-    "@testing-library/jest-dom": ^5.16.4
-    "@testing-library/react": ^12.1.5
-    "@types/jest": ^28.1.3
-    "@types/lodash": ^4.14.182
-    "@types/node": ^18.0.0
-    "@types/react": ^17.0.47
-    "@types/react-dom": ^17.0.17
-    "@types/react-helmet": ^6.1.5
-    "@types/xml2js": ^0.4.11
-    "@typescript-eslint/eslint-plugin": ^5.29.0
-    axe-core: ^4.4.2
-    babel-jest: ^28.1.1
-    babel-preset-gatsby: ^2.17.0
-    cypress: ^10.2.0
-    cypress-axe: ^1.0.0
-    eslint: ^8.18.0
-    eslint-config-airbnb: ^19.0.4
-    eslint-config-airbnb-typescript: ^17.0.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-cypress: ^2.12.1
-    eslint-plugin-import: ^2.26.0
-    eslint-plugin-jest: ^26.5.3
-    eslint-plugin-jest-dom: ^4.0.2
-    eslint-plugin-jsx-a11y: ^6.6.0
-    eslint-plugin-prettier: ^4.0.0
-    eslint-plugin-react: ^7.30.1
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-testing-library: ^5.5.1
-    gatsby: ^4.17.1
-    gatsby-cypress: ^2.17.0
-    gatsby-plugin-image: ^2.17.0
-    gatsby-plugin-mdx: ^3.17.0
-    gatsby-theme-advanced: "*"
-    gh-pages: ^4.0.0
-    jest: ^28.1.1
-    lodash: ^4.17.21
-    markdownlint-cli2: ^0.4.0
-    postcss-syntax: ^0.36.2
-    prettier: ^2.7.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-helmet: ^6.1.0
-    react-share: ^4.4.0
-    start-server-and-test: ^1.14.0
-    stylelint: ^14.9.1
-    stylelint-config-prettier: ^9.0.3
-    stylelint-config-recommended: ^8.0.0
-    stylelint-config-styled-components: ^0.1.1
-    stylelint-prettier: ^2.0.0
-    ts-jest: ^28.0.5
-    ts-node: ^10.8.1
-    ts-prune: ^0.10.3
-    typescript: ^4.7.4
-    write-good: ^1.0.8
-    xml2js: ^0.4.23
-  languageName: unknown
-  linkType: soft
-
 "gatsby-theme-advanced@*, gatsby-theme-advanced@workspace:themes/advanced":
   version: 0.0.0-use.local
   resolution: "gatsby-theme-advanced@workspace:themes/advanced"
@@ -12496,7 +12430,7 @@ __metadata:
     gatsby-plugin-lodash: ^5.17.0
     gatsby-plugin-manifest: ^4.17.0
     gatsby-plugin-mdx: ^3.17.0
-    gatsby-plugin-netlify-cms: ^6.17.0
+    gatsby-plugin-netlify-cms: ^7.5.0
     gatsby-plugin-nprogress: ^4.17.0
     gatsby-plugin-offline: ^5.17.0
     gatsby-plugin-page-creator: ^4.17.0
@@ -12679,7 +12613,7 @@ __metadata:
     gatsby-plugin-lodash: ^5.17.0
     gatsby-plugin-manifest: ^4.17.0
     gatsby-plugin-mdx: ^3.17.0
-    gatsby-plugin-netlify-cms: ^6.17.0
+    gatsby-plugin-netlify-cms: ^7.5.0
     gatsby-plugin-nprogress: ^4.17.0
     gatsby-plugin-offline: ^5.17.0
     gatsby-plugin-page-creator: ^4.17.0
@@ -13391,7 +13325,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^11.1.0, globals@npm:^11.12.0":
+"globals@npm:^11.1.0":
   version: 11.12.0
   resolution: "globals@npm:11.12.0"
   checksum: 67051a45eca3db904aee189dfc7cd53c20c7d881679c93f6146ddd4c9f4ab2268e68a919df740d39c71f4445d2b38ee360fc234428baea1dbdfe68bbcb46979e
@@ -22354,6 +22288,13 @@ __metadata:
   version: 0.11.1
   resolution: "regenerator-runtime@npm:0.11.1"
   checksum: 3c97bd2c7b2b3247e6f8e2147a002eb78c995323732dad5dc70fac8d8d0b758d0295e7015b90d3d444446ae77cbd24b9f9123ec3a77018e81d8999818301b4f4
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.13.11":
+  version: 0.13.11
+  resolution: "regenerator-runtime@npm:0.13.11"
+  checksum: 27481628d22a1c4e3ff551096a683b424242a216fee44685467307f14d58020af1e19660bf2e26064de946bad7eff28950eae9f8209d55723e2d9351e632bbb4
   languageName: node
   linkType: hard
 
